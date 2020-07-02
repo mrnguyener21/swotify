@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Home.module.scss'
 import swotifyLogo from '../../images/swotifyLogo.png'
+import jCole from '../../images/jCole.png'
 
 import {Link} from 'react-router-dom';
 
@@ -26,7 +27,8 @@ const Home = () => {
                     </Link>
                     
                 </div>
-                <div className={styles.jCole}>
+                <div className={styles.imageContainer}>
+                    <img className={styles.jCole} src={jCole} alt='jCole'/>
                 </div>
             </div>
         </div>
