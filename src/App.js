@@ -9,8 +9,8 @@ const App = () => {
         <div>
         <Router>
             <Switch>
-                <Route component={Home} path='/'/>
                 <Route component={WebPlayer} path='/webplayer'/>
+                <Route component={Home} path='/'/>
             </Switch>
         </Router>            
 
