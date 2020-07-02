@@ -1,0 +1,95 @@
+body{
+    margin: 0 5%;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(180deg, #011E33 40.47%, rgba(0, 9, 17, 0) 100%), #51779A;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+
+    
+    .container{
+        .header{
+            padding-top: 2%;
+            padding-bottom: 2%;
+            // border: solid white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .logoContainer{
+                // border: solid red;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                .logo{
+                    // border: solid yellow;
+                    padding-right: 2%;
+                    height:5vh;
+                }
+                
+            }
+            .itemContainer{
+                // border: solid white;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                width: 20vw;
+                .item{
+                    margin-right: 1vw;
+                }
+
+            }
+        }
+        .mainSection{
+            display: flex;
+            align-items: row;
+            justify-content: space-between;
+            flex-grow: 1;
+            height: 88.1vh;
+            .introContainer{
+                // border: solid;
+                height: 50%;
+                flex-grow: 1;
+                flex-direction: column;
+                display: flex;
+                align-items: stretch;
+                justify-content: center;
+                .intro{
+                    margin-bottom:0;
+                    font-size: 6em;
+                }
+                .subIntro{
+                    margin-top: 0;
+                    font-size: 3em;
+                }
+                .link{
+                    text-decoration: none;
+                    color: inherit;
+                    background-color:#0085FF;
+                    // border: solid;
+                    width:15%;
+                    padding: 1%;
+                    display: flex;
+                    justify-content: center;
+                    border-radius: 5px;
+
+                }
+              
+            }
+            .jCole{
+                // border: solid;
+                background-image: url(../../images/jCole.png);
+                flex-grow: 1;
+                max-height: 100vh;
+                min-width: 18vw;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: right;
+            }
+        }
+
+    }
+}
