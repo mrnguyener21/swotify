@@ -26,7 +26,8 @@ const Home = () => {
                     </Link>
                     
                 </div>
-                <div className={styles.jCole}></div>
+                <div className={styles.jCole}>
+                </div>
             </div>
         </div>
     )

@@ -47,23 +47,21 @@ body{
             display: flex;
             align-items: row;
             justify-content: space-between;
-            flex-grow: 1;
             height: 88.1vh;
             .introContainer{
-                // border: solid;
+                border: solid;
                 height: 50%;
-                flex-grow: 1;
                 flex-direction: column;
                 display: flex;
                 align-items: stretch;
                 justify-content: center;
                 .intro{
                     margin-bottom:0;
-                    font-size: 6em;
+                    font-size: 4vw;
                 }
                 .subIntro{
                     margin-top: 0;
-                    font-size: 3em;
+                    font-size: 2vw;
                 }
                 .link{
                     text-decoration: none;
@@ -82,9 +80,8 @@ body{
             .jCole{
                 // border: solid;
                 background-image: url(../../images/jCole.png);
-                flex-grow: 1;
-                max-height: 100vh;
-                min-width: 18vw;
+                // max-height: 100vh;
+                min-width: 30vw;
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position: right;
